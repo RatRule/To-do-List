@@ -1,0 +1,95 @@
+body{
+  background-color: #edf0f1;
+}
+.header{
+  position: fixed;
+  width:100%;
+  height: 80px;
+  background-color: #25b99a;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  box-shadow: opx 5px 5px black;
+  padding-left: 7px;
+
+}
+
+body input{
+
+  float: left;
+  width:98%;
+  color: #fff;
+  font-size:18px;
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom-right-radius:25px;
+  border-top-right-radius: 25px;
+  margin-top: 15px;
+  height:50px;
+  background-color:rgba(255,255,255,0.2);
+  outline:none;
+  border:none;
+  padding-right: 60px;
+  padding-left: 10px;
+
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+body input::-webkit-input-placeholder {
+
+ color: #edf0f1;
+ font-size: 14px;
+ font-family: helvetica;
+ padding-left:5px;
+ font-weight: bold;
+ font-size:130%;
+
+}
+
+.headerButton{
+  color: #25b99a;
+  font-size:150%;
+  width:50px;
+  height:52px;
+  position: absolute;
+  right: 0px;
+  border-radius: 25px;
+  margin-top:15px;
+  margin-right:2%;
+  border: none;
+  cursor: pointer;
+
+}
+ul{
+list-style:none;
+	padding:0;
+	margin:0;
+}
+.newEntry{
+  color:#25b99a;
+  display: inline-block;
+  margin-top: 5px;
+  background-color: white;
+  padding:10px;
+  width:100%;
+  float: left;
+}
+
+
+.del-btn{
+  background-color: white;
+  color:#25b99a;
+  font-size: 150%;
+  text-align: center;
+  border: none;
+  height:25px;
+  border-radius: 50%;
+  width:3%;
+  margin-right: 2px;
+  cursor: pointer;
+
+
+}
+button.del-btn:hover{
+  color: red;
+}
